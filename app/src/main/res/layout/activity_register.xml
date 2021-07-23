@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+
+
+
+    <ImageView
+        android:id="@+id/mnpticoin"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mnpticoin"
+        />
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/inp1"
+        android:layout_below="@id/mnpticoin"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:hint="Nom"
+        android:inputType="text"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/inp1"
+        android:layout_below="@id/nom"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="18dp"
+        android:hint="Prénom"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:ems="10"
+        android:inputType="text" />
+
+
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/inp1"
+        android:layout_below="@id/prenom"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="18dp"
+        android:hint="Username"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:ems="10"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/inp1"
+        android:layout_below="@id/username1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="18dp"
+        android:hint="Password"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b1"
+        android:layout_below="@id/password1"
+        android:text="register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
